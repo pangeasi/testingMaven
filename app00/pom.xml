@@ -23,7 +23,7 @@
     <resources>
 
 	<resource>
-       <directory>img</directory>
+       <directory>resources</directory>
 
      </resource>
     </resources>
