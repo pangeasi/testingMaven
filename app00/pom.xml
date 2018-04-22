@@ -21,14 +21,10 @@
   <build>
 
     <resources>
-     <resource>
-       <directory>src/main/java</directory>
-     </resource>
+
 	<resource>
-       <directory>src/main/resources/img/</directory>
-       <includes> 
-    		<include>**/*.jpg</include>
-		</includes> 
+       <directory>img</directory>
+
      </resource>
     </resources>
   
