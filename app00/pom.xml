@@ -25,7 +25,7 @@
        <directory>src/main/java</directory>
      </resource>
 	<resource>
-       <directory>src/main/resources/img</directory>
+       <directory>src/main/resources/img/</directory>
        <includes> 
     		<include>**/*.jpg</include>
 		</includes> 
