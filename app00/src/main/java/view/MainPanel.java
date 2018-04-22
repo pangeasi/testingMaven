@@ -37,7 +37,7 @@ public class MainPanel extends JPanel{
 		String file ="mainbackground2.jpg";
 		
 		ClassLoader classLoader = ClassLoader.getSystemClassLoader();
-	    InputStream is = classLoader.getResourceAsStream("img/" + file);
+	    InputStream is = classLoader.getResourceAsStream( file);
 		setLayout(null);
 		try{
 			loginBackground = ImageIO.read(is);
