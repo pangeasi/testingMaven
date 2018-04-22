@@ -8,7 +8,7 @@ public class Main {
 	//COMERME LOS HUEVOS
 	
 	public static void main(String[] args) {
-		System.out.println("TESTING JENKINS");
+		System.out.println("TESTING JENKINS con MAVEN");
 		try {
 			MainFrame.getInstance().setVisible(true);
 		}catch (Exception e) {
