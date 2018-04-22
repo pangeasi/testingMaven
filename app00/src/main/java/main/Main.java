@@ -9,7 +9,12 @@ public class Main {
 	
 	public static void main(String[] args) {
 		System.out.println("TESTING JENKINS");
-		MainFrame.getInstance().setVisible(true);;
+		try {
+			MainFrame.getInstance().setVisible(true);
+		}catch (Exception e) {
+			System.out.println("puede que sea una aplicación gráfica : )");
+		}
+		
 		//ME LLAMO JANDER MORER
 	}
 
