@@ -12,7 +12,7 @@ public class Main {
 		try {
 			MainFrame.getInstance().setVisible(true);
 		}catch (Exception e) {
-			System.out.println("puede que sea una aplicación gráfica : )");
+			System.out.println("puede que sea una aplicación gráfica : )\nDescargala y ejecutala");
 		}
 		
 		//ME LLAMO JANDER MORER
